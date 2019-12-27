@@ -6,8 +6,8 @@
   "author": "Zach Harris <zachbharris94@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node -r dotenv/config src/start.js",
-    "dev": "nodemon -r dotenv/config src/start.js"
+    "start": "node -r dotenv/config src",
+    "dev": "nodemon -r dotenv/config src"
   },
   "dependencies": {
     "axios": "^0.19.0",
